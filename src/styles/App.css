@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Caveat&family=Cinzel:wght@500;600&family=Pacifico&family=Poltawski+Nowy:wght@500;600&family=Satisfy&display=swap');
+
+* {
+  padding: 0;
+  margin-top: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+:root {
+  --clr-dark-violet: #011936;
+  --clr-Very-Dark: #161722;
+  --clr-Very-Dark-Desaturated-Blue: #25273c;
+  --clr-Very-Grayish-Blue: #4d5066;
+  --clr-Very-Dark-Grayish-Blue: #393a4c;
+  --clr-verdigris: #48a9a6;
+  --dark-pastel-green: #20bf55;
+  --clr-blue: #0b4f6c;
+  --clr-royal-blue-dark: #03256c;
+  --clr-denim-blue: #2541b2;
+  --clr-blue: #1768ac;
+  --clr-Dark-Blue: #2b3945;
+  --clr-Very-Dark-Blue: #202c37;
+  --clr-Very-Dark-Blue-Light: #111517;
+  --clr-Dark-Grayish-Blue: #323a49;
+  --box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25),
+    -2px -2px 2px rgba(0, 0, 0, 0.25);
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: aliceblue;
+  
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+
+.hero-para,.bike{
+  font-family: 'Caveat', cursive;
+  font-size: 1.2rem;
+}
+.bg-checkout {
+  background-image: url("../assets/pexels-antony-trivet-13354577\ \(1\).jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.order-img {
+  aspect-ratio: 3/3;
+  object-fit: contain;
+}
+
+.menu-title,.footer-title{
+  font-family: 'Satisfy', cursive;
+}
+
+
+
+/* to remove up&down arrow in number input */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+
+.logo-cdn{
+  font-family: 'Pacifico', cursive;
+}
+
+
+.para-hero{
+  font-family: 'Cinzel', serif;
+}
+
+.project{
+  background-image: url(../assets/pexels-felipe-paes-3728311.jpg);
+}
