@@ -53,8 +53,8 @@ const App = () => {
   };
 
   useEffect(() => {
-    fetchData(); 
-  }, []);
+    fetchData();  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []); 
 
   // localstorage set item
   useEffect(() => {

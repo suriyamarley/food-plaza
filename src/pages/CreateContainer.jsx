@@ -29,7 +29,7 @@ const CreateContainer = () => {
   const [imageAsset, setImageAsset] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
   // dispatch
-  const [dispatch] = useStateValue();
+  const [ dispatch ] = useStateValue();
 
   const uploadImage = (e) => {
     setIsLoading(true);
