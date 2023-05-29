@@ -53,8 +53,10 @@ const App = () => {
   };
 
   useEffect(() => {
+   
     fetchData(); 
-  }, []);
+    
+  }, )
 
   // localstorage set item
   useEffect(() => {
