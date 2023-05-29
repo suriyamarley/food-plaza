@@ -123,7 +123,7 @@ const CreateContainer = () => {
 
   return (
     <>
-      <main className="mt-14 md:mt-20 px-4 md:px-16 py-4 w-full">
+      <main className="mt-14 md:mt-20 px-4 md:px-16 py-4 w-full bg-white">
         <div className="w-full min-h-screen flex items-center justify-center">
           <div className="w-[90%] md:w-[75%] border border-gray-300 rounded-lg p-4 flex flex-col items-center justify-center gap-4">
             <div className="w-full py-2 border-b border-gray-300 flex items-center gap-2">
@@ -169,9 +169,9 @@ const CreateContainer = () => {
                   {!imageAsset ? (
                     <>
                       <label className="w-full h-full flex flex-col items-center justify-center cursor-pointer">
-                        <div className="w-full h-full flex flex-col items-center justify-center gap-2">
+                        <div className="w-full h-full flex flex-col items-center justify-center gap-2 bg-white border-black">
                           <MdCloudUpload className="text-gray-500 text-3xl hover:text-gray-700" />
-                          <p className="text-gray-500 hover:text-gray-700">
+                          <p className="text-gray-500 hover:text-gray-700 ">
                             Click here to upload
                           </p>
                         </div>

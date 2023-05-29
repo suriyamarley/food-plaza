@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useStateValue } from "../contexts/StateProvider";
 import { OrderedProduct, OrderedUser } from "../components";
-import noOrder from "../assets/online-order.png"
+import noOrder from "../assets/416873-PDT894-517.jpg"
 
 const OrderSummary = ({ form }) => {
   const [{ orders }] = useStateValue();
@@ -25,7 +25,7 @@ const OrderSummary = ({ form }) => {
             <img
               src={noOrder}
               alt="no-orders"
-              className="h-[80vh] [w-50%] "
+              className="h-[70vh] w-[50%] flex-1 items-center justify-center m-auto noorder"
             />
           </div>
         </div>
