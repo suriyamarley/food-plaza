@@ -9,7 +9,7 @@ const HomeContainer = () => {
     <section className="hero-home grid grid-cols-1 md:grid-cols-2 gap-2 w-full" id="home">
       <div className="py-2 flex-1 flex flex-col items-start justify-center gap-6">
         <div className="flex items-center gap-2 justify-center bg-white px-4 py-1  rounded-lg ">
-          <p className="text-base text-red-500  bike">Ready To Delivary</p>
+          <p className="text-base text-red-500  bike">Ready To Delivery</p>
           <div className="w-8 h-8 overflow-hidden drop-shadow-xl">
             <img
               src={Delivery}

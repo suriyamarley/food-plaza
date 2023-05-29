@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import logo from "../assets/img/vecteezy_fast-food-vector-clipart-design-png-graphic-clipart-design_19607567_681.png";
-import avatar from "../assets/img/profile-pic.png";
+import avatar from "../assets/kid-g2f0e6a021_1280.png";
 import { motion } from "framer-motion";
 import { MdAdd, MdLogout, MdFastfood } from "react-icons/md";
 import { IoIosBasket } from "react-icons/io";
