@@ -110,7 +110,7 @@ const CheckoutForm = ({ userProfile, setForm, setisModalOpen, cartItems }) => {
       }
     } else {
       setisModalOpen(false);
-      toast.error("All fields are mendatory to fill");
+      toast.error("All fields are mandatory to fill");
     }
   };
 
