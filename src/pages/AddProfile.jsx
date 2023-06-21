@@ -53,11 +53,11 @@ const AddProfile = ({ form, setForm }) => {
   };
 
   return (
-    <div className="bg-slate-800 w-full h-full flex flex-col min-h-screen justify-center items-center text-white">
-      <div className="p-6 rounded-lg mt-24 bg-slate-900/30 w-[95%] sm:w-[450px]">
+    <div className="bg-white w-full h-full flex flex-col min-h-screen justify-center items-center text-white">
+      <div className="p-6 rounded-lg mt-24 bg-gray-200 w-[95%] sm:w-[450px]">
         <form onSubmit={saveDetails} className="flex flex-col gap-y-8">
           <div className="text-center">
-            <div className="inline-flex justify-center items-center bg-black/10 py-1 px-3 rounded-lg gap-2 text-gray-400 font-medium md:text-lg">
+            <div className="inline-flex justify-center items-center bg-gray-200 py-1 px-3 rounded-lg gap-2 text-gray-400 font-medium md:text-lg">
               <h1>{id ? "Edit Profile" : "Add Profile"}</h1>
               <h1>
                 <FaUserCircle />
@@ -69,21 +69,21 @@ const AddProfile = ({ form, setForm }) => {
             placeholder="User Name"
             value={user?.displayName}
             readOnly
-            className="py-3 capitalize rounded pl-3 bg-slate-700"
+            className="py-3 capitalize rounded pl-3 bg-black/25"
           />
           <input
             type="email"
             placeholder="Email"
             value={user?.email}
             readOnly
-            className="py-3 rounded pl-3 bg-slate-700"
+            className="py-3 rounded pl-3 bg-black/25"
           />
           <input
             type="number"
             placeholder="Mobile Number"
             value={number}
             onChange={(e) => setForm({ ...form, number: e.target.value })}
-            className="py-3 rounded pl-3 bg-slate-700"
+            className="py-3 rounded pl-3 bg-black/25"
           />
           <textarea
             type="text"
@@ -91,14 +91,14 @@ const AddProfile = ({ form, setForm }) => {
             value={address}
             rows={3}
             onChange={(e) => setForm({ ...form, address: e.target.value })}
-            className="py-3 rounded pl-3 bg-slate-700"
+            className="py-3 rounded pl-3 bg-black/25"
           />
           <input
             type="text"
             placeholder="City"
             value={city}
             onChange={(e) => setForm({ ...form, city: e.target.value })}
-            className="py-3 rounded pl-3 bg-slate-700"
+            className="py-3 rounded pl-3 bg-black/25"
           />
           <div>
             <button

@@ -22,6 +22,8 @@ const Header = ({ clearData, cartItems }) => {
 
   const navigate = useNavigate();
 
+  console.log(Header)
+
   // login
   const logIn = async () => {
     if (!user) {
